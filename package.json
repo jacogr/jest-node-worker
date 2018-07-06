@@ -1,0 +1,16 @@
+{
+  "name": "jest-node-worker",
+  "version": "0.0.1",
+  "description": "Test to show Jest + Node Worker failures",
+  "main": "index.js",
+  "repository": "https://github.com/jacogr/jest-node-worker.git",
+  "author": "Jaco Greeff <jacogr@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jest": "^23.3.0"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-worker jest"
+  }
+}
